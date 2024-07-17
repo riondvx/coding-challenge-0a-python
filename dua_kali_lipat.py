@@ -22,3 +22,6 @@ Input    Result
 bilangan_x = int(input("-> "))
 hasil = bilangan_x * 2
 print(hasil)
+
+# Cara singkat / satu baris
+# print(int(input("-> ")) * 2)
