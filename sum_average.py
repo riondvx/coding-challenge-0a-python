@@ -37,10 +37,8 @@ def calculate_sum_and_average(arr):
   return total, avg
 
 
-arrs = [[3, 20, 9, 12], [4, 8, 15], [51, 12, 33]]
-
-for arr in arrs:
-  total, avg = calculate_sum_and_average(arr)
-  print(f"Array: {arr}")
-  print(f"Total: {total}")
-  print(f"Rata-rata: {avg}")
+arr = [7, 10, 5, 3, 5, 12, 1, 9, 18, 12]
+total, avg = calculate_sum_and_average(arr)
+print(f"Array: {arr}")
+print(f"Total: {total}")
+print(f"Rata-rata: {avg}")
